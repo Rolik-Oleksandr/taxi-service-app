@@ -22,7 +22,7 @@
 
     <servlet>
         <servlet-name>loginController</servlet-name>
-        <servlet-class>taxi.controller.LoginController</servlet-class>
+        <servlet-class>taxi.authentication.LoginController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>loginController</servlet-name>
@@ -40,7 +40,7 @@
 
     <servlet>
         <servlet-name>logoutController</servlet-name>
-        <servlet-class>taxi.controller.LogoutController</servlet-class>
+        <servlet-class>taxi.authentication.LogoutController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>logoutController</servlet-name>
